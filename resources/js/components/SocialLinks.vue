@@ -4,10 +4,7 @@
       <span class="mdi mdi-facebook social-icons"></span>
     </a>
     <a href="#">
-      <span class="mdi mdi-youtube social-icons"></span>
-    </a>
-    <a href="#">
-      <span class="mdi mdi-gmail social-icons"></span>
+      <span class="mdi mdi-instagram social-icons"></span>
     </a>
   </div>
 </template>
