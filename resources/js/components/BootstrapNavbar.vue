@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="/">
-        <img src="/images/logo-navbar.png" alt="Logo" style="width:80px;" />
+        <img src="/assets/logo.webp" alt="Logo" style="width:80px;" />
       </a>
       <button
         class="navbar-toggler"
