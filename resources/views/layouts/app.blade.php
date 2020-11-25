@@ -33,9 +33,6 @@
         <main>
             @yield('content')
         </main>
-        <vue-section :has-padding="false" class="bg-dark">
-            <social-links></social-links>
-        </vue-section>
         <app-footer></app-footer>
     </div>
 </body>
