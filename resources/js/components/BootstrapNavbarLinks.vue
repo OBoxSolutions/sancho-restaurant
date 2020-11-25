@@ -26,29 +26,19 @@ export default {
           public: "Inicio"
         },
         {
-          route: "/news",
-          name: "news",
-          public: "Noticias"
+          route: "/menu",
+          name: "menu",
+          public: "Menú"
         },
         {
-          route: "/events",
+          route: "/reserve",
           name: "events",
-          public: "Eventos"
+          public: "Reservar"
         },
         {
-          route: "/store",
-          name: "store",
-          public: "Tienda"
-        },
-        {
-          route: "/authors",
-          name: "authors",
-          public: "Autores"
-        },
-        {
-          route: "/about",
-          name: "about",
-          public: "Nosotros"
+          route: "/contact",
+          name: "contact",
+          public: "Contactar"
         }
       ]
     };
