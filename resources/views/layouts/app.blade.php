@@ -7,7 +7,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Se no Kanpeki-Sa</title>
+    <title>Sancho Restaurant</title>
 
     @include('partials.metadata')
 
