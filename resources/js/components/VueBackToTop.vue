@@ -25,7 +25,6 @@ export default {
         document.documentElement.scrollTop > 20
       ) {
         mybutton.style.display = "block";
-        console.log(mybutton);
       } else {
         mybutton.style.display = "none";
       }
