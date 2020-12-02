@@ -24,8 +24,13 @@
   <vue-section>
     <div class="row">
       <div class="col-md-6">
-        <img src="{{ asset('assets/phone.svg') }}" class="img-fluid" alt="Imagen de noticias" srcset="">
-      </div>
+                <h1>Subscríbase a nuestro buzón</h1>
+                <p>Subscríbete a nuestor buzón de correos para obtener correos cuando nuevas especialidades u ofertas se añadan al restaurante.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Dirección de correo</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entre su dirección de correo">
+                    </div>
       <div class="col-md-6">
         <h1>Llame ahora y reserve</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum molestias ullam fuga quas soluta deleniti voluptatum odio, voluptas impedit sit id eveniet veritatis sunt delectus ipsa, facilis nihil, officia esse.</p>
