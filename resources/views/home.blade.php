@@ -8,6 +8,18 @@
 <bootstrap-carousel></bootstrap-carousel>
 
 <section>
+    <!-- Call to reserve section -->
+    <vue-section>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{{ asset('assets/phone.svg') }}" class="img-fluid" alt="A phone image" srcset="">
+            </div>
+            <div class="col-md-6">
+                <h1>Llame ahora y reserve</h1>
+                <h1>+69 6948694</h1>
+            </div>
+        </div>
+    </vue-section>
     <!-- Resumen section -->
     <vue-section>
         <div class="row">
