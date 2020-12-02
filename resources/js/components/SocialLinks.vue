@@ -19,6 +19,6 @@ export default {
 <style lang="scss" scoped>
 .social-icons {
   font-size: 4em;
-    color: #f70027;
+    color: #f9a826;
 }
 </style>
