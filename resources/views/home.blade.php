@@ -22,7 +22,7 @@
 </section>
 <!-- Hours section -->
 <section>
-    <vue-section>
+    <vue-section class="bg-dark text-light">
         <div class="row">
             <div class="col-md-3">
                 <img src="{{ asset('assets/clock.svg') }}" class="img-fluid" alt="A phone image" srcset="">
