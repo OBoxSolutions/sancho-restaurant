@@ -52,11 +52,14 @@
                 <img src="{{ asset('assets/clock.svg') }}" class="img-fluid" alt="A phone image" srcset="">
             </div>
             <div class="offset-md-3 col-md-6">
-                <h1>Horario</h1>
-                <p>
-                    Martes-viernes 12:00–22:30 | sábado 12:00–23:00 | domingo 14:00 22:00
-                </p>
-                <h3>Lunes cerrado</h3>
+                <app-center-aligner>
+
+                    <h1>Horario</h1>
+                    <p>
+                        Martes-viernes 12:00–22:30 | sábado 12:00–23:00 | domingo 14:00 22:00
+                    </p>
+                    <h3>Lunes cerrado</h3>
+                </app-center-aligner>
             </div>
         </div>
     </vue-section>
@@ -87,14 +90,18 @@
                 <img src="{{ asset('assets/menu.svg') }}" class="img-fluid" alt="Imagen de noticias" srcset="">
             </div>
             <div class="col-md-5">
-                <h1>Nuestro Menú</h1>
-                <p>Descubra nuestra variedad de especialidades</p>
+                <app-center-aligner>
+                    <h1>Nuestro Menú</h1>
+                    <p>Descubra nuestra variedad de especialidades</p>
+                </app-center-aligner>
             </div>
             <div class="col-md-2"></div>
             <div class="col-md-2">
-                <a href="#">
-                    <button class="btn">Menú</button>
-                </a>
+                <app-center-aligner>
+                    <a href="#">
+                        <button class="btn">Menú</button>
+                    </a>
+                </app-center-aligner>
             </div>
         </div>
     </vue-section>
