@@ -20,6 +20,23 @@
     </div>
   </vue-section>
 </section>
+<!-- Hours section -->
+<section>
+    <vue-section>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="{{ asset('assets/clock.svg') }}" class="img-fluid" alt="A phone image" srcset="">
+            </div>
+            <div class="offset-md-3 col-md-6">
+                <h1>Horario</h1>
+                <p>
+                    Martes-viernes 12:00–22:30 | sábado 12:00–23:00 | domingo 14:00 22:00
+                </p>
+                <h3>Lunes cerrado</h3>
+            </div>
+        </div>
+    </vue-section>
+</section>
 <!-- Subscribe section -->
 <section>
     <vue-section>
