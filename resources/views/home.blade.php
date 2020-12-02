@@ -8,17 +8,27 @@
 <bootstrap-carousel></bootstrap-carousel>
 
 <section>
-  <vue-section>
-    <div class="row">
-      <div class="col-md-6">
-        <img src="{{ asset('assets/phone.svg') }}" class="img-fluid" alt="A phone image" srcset="">
-      </div>
-      <div class="col-md-6">
-        <h1>Llame ahora y reserve</h1>
-        <h1>+69 6948694</h1>
-      </div>
-    </div>
-  </vue-section>
+    <!-- Resumen section -->
+    <vue-section>
+        <div class="row">
+            <div class="offset-md-3 col-md-6">
+                <h1>
+                    Bienvenido a Sancho Restaurant
+                </h1>
+                <h2>
+                    La casa del cochinillo en Miami
+                </h2>
+                <p>
+                    Bienvenido al Sancho Restaurant, donde nuestra especialidad es la deliciosa cocina creada con el ingenio y la pasión, inspirados en los fantásticos sabores de España. Nos enorgullecemos de mejorar sus platos españoles favoritos de maneras nuevas y creativas. ¡Venga y experimente la cocina española a nuestra manera!
+                </p>
+                <h1>
+
+                    LLAME AHORA (305) 553-6886
+                </h1>
+
+            </div>
+        </div>
+    </vue-section>
 </section>
 <!-- Hours section -->
 <section>
@@ -76,7 +86,7 @@
     </vue-section>
 </section>
 <section>
-  <vue-section class="mt-0 mb-0">
-    <iframe src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed" width="100%" height="450" frameborder="0" style="border:0"></iframe> </vue-section>
+    <vue-section class="mt-0 mb-0">
+        <iframe src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed" width="100%" height="450" frameborder="0" style="border:0"></iframe> </vue-section>
 </section>
 @endsection
