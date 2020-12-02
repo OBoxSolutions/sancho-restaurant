@@ -37,20 +37,25 @@
     </div>
   </vue-section>
 </section>
+<!-- Menu section -->
 <section>
-  <vue-section>
-    <div class="row">
-      <div class="col-md-6">
-        <img src="{{ asset('assets/phone.svg') }}" class="img-fluid" alt="Imagen de noticias" srcset="">
-      </div>
-      <div class="col-md-6">
-        <h1>Regístrese para recibir ofertas y especiales a su correo</h1>
-        <a href="#">
-          <button class="btn btn-danger">Ir a noticias</button>
-        </a>
-      </div>
-    </div>
-  </vue-section>
+    <vue-section class="bg-dark text-light">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="{{ asset('assets/menu.svg') }}" class="img-fluid" alt="Imagen de noticias" srcset="">
+            </div>
+            <div class="col-md-5">
+                <h1>Nuestro Menú</h1>
+                <p>Descubra nuestra variedad de especialidades</p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <a href="#">
+                    <button class="btn">Menú</button>
+                </a>
+            </div>
+        </div>
+    </vue-section>
 </section>
 <section>
   <vue-section class="mt-0 mb-0">
