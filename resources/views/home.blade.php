@@ -9,7 +9,7 @@
 
 <section>
     <!-- Call to reserve section -->
-    <vue-section>
+    <vue-section class="bg-primary-color text-light">
         <div class="row">
             <div class="col-md-6">
                 <img src="{{ asset('assets/phone.svg') }}" class="img-fluid" alt="A phone image" srcset="">
@@ -46,7 +46,7 @@
 </section>
 <!-- Hours section -->
 <section>
-    <vue-section class="bg-dark text-light">
+    <vue-section class="bg-primary-color text-light">
         <div class="row">
             <div class="col-md-3">
                 <img src="{{ asset('assets/clock.svg') }}" class="img-fluid" alt="A phone image" srcset="">
@@ -84,7 +84,7 @@
 </section>
 <!-- Menu section -->
 <section>
-    <vue-section class="bg-dark text-light">
+    <vue-section class="bg-primary-color text-light">
         <div class="row">
             <div class="col-md-3">
                 <img src="{{ asset('assets/menu.svg') }}" class="img-fluid" alt="Imagen de noticias" srcset="">
