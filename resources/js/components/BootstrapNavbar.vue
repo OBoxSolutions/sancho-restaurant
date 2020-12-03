@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary-color">
     <div class="container">
       <a class="navbar-brand" href="/">
         <img src="/assets/logo.webp" alt="Logo" style="width:240px;" />
