@@ -11,17 +11,17 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img
-          src="images/photo1.jpg"
+          src="assets/chicken.jpeg"
           alt="Los Angeles"
           width="1100"
           height="500"
         />
       </div>
       <div class="carousel-item">
-        <img src="images/photo2.jpg" alt="Chicago" width="1100" height="500" />
+        <img src="assets/hamburger.jpeg" alt="Chicago" width="1100" height="500" />
       </div>
       <div class="carousel-item">
-        <img src="images/photo3.jpg" alt="New York" width="1100" height="500" />
+        <img src="assets/pizza.jpeg" alt="New York" width="1100" height="500" />
       </div>
     </div>
 
