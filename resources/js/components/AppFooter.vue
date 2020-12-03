@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="jumbotron-fluid bg-dark text-white pt-5 footer">
+    <div class="jumbotron-fluid text-white pt-5 footer bg-primary-color">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-4 text-center">
