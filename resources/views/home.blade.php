@@ -66,7 +66,7 @@
 </section>
 <!-- Subscribe section -->
 <section>
-    <vue-section>
+    <vue-section-background-image background-image="{{ asset('assets/pizza-right-side.jpg') }}">
         <div class="row">
             <div class="col-md-6">
                 <h1>Subscríbase a nuestro buzón</h1>
@@ -80,7 +80,7 @@
                 </form>
             </div>
         </div>
-    </vue-section>
+    </vue-section-background-image>
 </section>
 <!-- Menu section -->
 <section>
