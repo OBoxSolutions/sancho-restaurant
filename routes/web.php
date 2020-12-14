@@ -18,5 +18,5 @@ Route::view('reserve', 'reserve')->name('reserve');
 
 Route::view('email/create', 'email')->name('email');
 Route::post('email/store', 'EmailController@store');
-Route::view('email/send', 'send')->name('emailSend');
+Route::view('email/send', 'sendEmailForm')->name('emailSend');
 Route::post('email/send', 'EmailController@send');
