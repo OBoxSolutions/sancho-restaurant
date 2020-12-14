@@ -6,7 +6,7 @@
 <vue-back-to-top></vue-back-to-top>
 <section>
     <vue-section>
-        <form action="" method="post">
+        <form action="/email/send" method="post">
             <div class="form-group">
                 <label for="emailBody">Cuerpo del correo</label>
                 <textarea class="form-control" name="emailBody" id="emailBody" rows="3"></textarea>
