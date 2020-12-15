@@ -11,6 +11,9 @@
 |
 */
 
+use App\Mail\SentEmail;
+use Illuminate\Support\Facades\Mail;
+
 Route::get('/', 'HomeController@index')->name('home');
 Route::view('contact', 'contact')->name('contact');
 Route::view('menu', 'menu')->name('menu');
