@@ -31,6 +31,11 @@ class SentEmail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.sentEmail');
+//        return $this->markdown('emails.sentEmail');
+
+        return $this->from(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'))
+                    ->markdown('emails.sentEmail')
+                    ->subject('Oferta de Sancho Restaurant')
+                    ->with($this->data);
     }
 }
