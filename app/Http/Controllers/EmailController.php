@@ -24,13 +24,13 @@ class EmailController extends Controller
             'emailBody' => 'required',
         ]);
 
-        Mail::to('jcassola96@gmail.com')->send(new SentEmail($data));
+//        Mail::to('jcassola96@gmail.com')->send(new SentEmail($data));
 
-//        $mailTo = Email::all();
-//        foreach ($mailTo as $mt){
-//            Mail::to($mt->email)->send(new SentEmail($data));
-//        }
-//        return redirect(route('emailSend'));
+        $mailTo = Email::all();
+        foreach ($mailTo as $mt){
+            Mail::to($mt->email)->send(new SentEmail($data));
+        }
+
         return new SentEmail($data);
     }
 }
