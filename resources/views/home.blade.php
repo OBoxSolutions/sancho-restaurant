@@ -71,7 +71,7 @@
             <div class="col-md-6">
                 <h1>Subscríbase a nuestro buzón</h1>
                 <p>Subscríbete a nuestor buzón de correos para obtener correos cuando nuevas especialidades u ofertas se añadan al restaurante.</p>
-                <form action="email/store" method="post">
+                <form action="{{route('email.store')}}" method="post">
                     @csrf
                     <div class="form-group">
                         <label for="email">Dirección de correo</label>
