@@ -12,7 +12,10 @@
                 @csrf
                 <div class="form-group">
                     <label for="exampleInputEmail1">Dirección de correo</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entre su dirección de correo">
+                    <input type="email" class="form-control @error('title') is-invalid @enderror" id="email" name="email" aria-describedby="emailHelp" placeholder="Entre su dirección de correo">
+                    @error('email')
+                    <div class="alert alert-danger">{{ $message }}</div>
+                    @enderror
                 </div>
                 <app-golden-btn type="submit">Subscribirme</app-golden-btn>
             </form>

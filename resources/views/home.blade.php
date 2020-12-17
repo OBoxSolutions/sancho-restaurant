@@ -75,7 +75,7 @@
                     @csrf
                     <div class="form-group">
                         <label for="email">Dirección de correo</label>
-                        <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" aria-describedby="emailHelp" placeholder="Entre su dirección de correo">
+                        <input type="email" class="form-control @error('title') is-invalid @enderror" id="email" name="email" aria-describedby="emailHelp" placeholder="Entre su dirección de correo">
                         @error('email')
                         <div class="alert alert-danger">{{ $message }}</div>
                         @enderror
