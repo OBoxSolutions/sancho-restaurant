@@ -49,8 +49,8 @@ export default {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #9d0208; /* Set a background color */
-  color: white; /* Text color */
+  background-color: var(--bg-color-secondary); /* Set a background color */
+  color: var(--color-primary); /* Text color */
   border-radius: 50%; /* Rounded corners */
   width: 80px;
   height: 80px;

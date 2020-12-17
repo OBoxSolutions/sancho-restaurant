@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-sm navbar-dark bg-primary-color">
     <div class="container">
       <a class="navbar-brand" href="/">
-        <img src="/assets/logo.webp" alt="Logo" style="width:240px;" />
+        <img src="/assets/logo.webp" alt="Logo" style="width: 240px" />
       </a>
       <button
         class="navbar-toggler"
@@ -18,10 +18,14 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Right Side Of Navbar -->
-        <bootstrap-navbar-links :user-name="userName" :current-route="currentRoute">
+        <bootstrap-navbar-links
+          :user-name="userName"
+          :current-route="currentRoute"
+        >
           <!-- Authentication Links -->
           <slot></slot>
         </bootstrap-navbar-links>
+        <!-- <vue-theme-switcher></vue-theme-switcher> -->
       </div>
     </div>
   </nav>
@@ -30,6 +34,6 @@
 <script>
 export default {
   props: ["userName", "currentRoute"],
-  name: "BootstrapNavbar",
+  name: "BootstrapNavbar"
 };
 </script>

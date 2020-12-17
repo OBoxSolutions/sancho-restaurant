@@ -44,6 +44,11 @@ export default {
           route: "/email/send",
           name: "emailSend",
           public: "Enviar correos"
+        },
+        {
+          route: "/email/create",
+          name: "email",
+          public: "Subscribirse"
         }
       ]
     };

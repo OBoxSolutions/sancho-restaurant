@@ -71,12 +71,16 @@
             <div class="col-md-6">
                 <h1>Subscríbase a nuestro buzón</h1>
                 <p>Subscríbete a nuestor buzón de correos para obtener correos cuando nuevas especialidades u ofertas se añadan al restaurante.</p>
-                <form>
+                <form action="email/store" method="post">
+                    @csrf
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Dirección de correo</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entre su dirección de correo">
+                        <label for="email">Dirección de correo</label>
+                        <input type="email" class="form-control @error('title') is-invalid @enderror" id="email" name="email" aria-describedby="emailHelp" placeholder="Entre su dirección de correo">
+                        @error('email')
+                        <div class="alert alert-danger">{{ $message }}</div>
+                        @enderror
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <app-golden-btn size="large">Subscribirme</app-golden-btn>
                 </form>
             </div>
         </div>
@@ -99,7 +103,7 @@
             <div class="col-md-2">
                 <app-center-aligner>
                     <a href="#">
-                        <button class="btn">Menú</button>
+                        <app-golden-btn size="large">Menú</app-golden-btn>
                     </a>
                 </app-center-aligner>
             </div>
