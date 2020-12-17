@@ -76,7 +76,7 @@
                         <label for="exampleInputEmail1">Dirección de correo</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entre su dirección de correo">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Subscribirme</button>
                 </form>
             </div>
         </div>
