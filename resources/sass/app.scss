@@ -11,7 +11,7 @@
 [data-theme="default"] {
   --bg-color-primary: #03071e;
   --bg-color-secondary: #9d0208;
-  --bg-color-tertiary: #9d0208;
+  --bg-color-tertiary: #f9a826;
   --color-primary: white;
 }
 
@@ -28,4 +28,8 @@
 
 .bg-secondary-color {
   background-color: var(--bg-color-secondary);
+}
+
+.bg-secondary-color {
+  background-color: var(--bg-color-tertiary);
 }
