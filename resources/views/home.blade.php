@@ -80,7 +80,7 @@
                         <div class="alert alert-danger">{{ $message }}</div>
                         @enderror
                     </div>
-                    <button type="submit" class="btn btn-primary golden-btn">Subscribirme</button>
+                    <app-golden-btn size="large">Subscribirme</app-golden-btn>
                 </form>
             </div>
         </div>
@@ -103,7 +103,7 @@
             <div class="col-md-2">
                 <app-center-aligner>
                     <a href="#">
-                        <button class="btn golden-btn">Menú</button>
+                        <app-golden-btn size="large">Menú</app-golden-btn>
                     </a>
                 </app-center-aligner>
             </div>

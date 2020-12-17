@@ -15,7 +15,7 @@
                 <div class="alert alert-danger">{{ $message }}</div>
                 @enderror
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <app-golden-btn type="submit">Enviar</app-golden-btn>
         </form>
     </vue-section>
 </section>
