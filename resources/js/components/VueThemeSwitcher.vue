@@ -33,7 +33,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 input[type="checkbox"] {
   height: 0;
   width: 0;
