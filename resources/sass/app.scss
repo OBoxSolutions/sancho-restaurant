@@ -33,3 +33,23 @@
 .bg-secondary-color {
   background-color: var(--bg-color-tertiary);
 }
+
+.golden-btn {
+  background-color: var(--bg-color-tertiary);
+  border: none;
+  color: black;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.golden-btn:hover {
+  background-color: var(--bg-color-secondary);
+  color: white;
+}
