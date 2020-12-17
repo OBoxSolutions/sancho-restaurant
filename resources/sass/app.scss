@@ -1,12 +1,31 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 
 // Variables
-@import 'variables';
+@import "variables";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+
+:root,
+[data-theme="default"] {
+  --bg-color-primary: #03071e;
+  --bg-color-secondary: #9d0208;
+  --bg-color-tertiary: #9d0208;
+  --color-primary: white;
+}
+
+[data-theme="light"] {
+  --bg-color-primary: #006d77;
+  --bg-color-secondary: #e29578;
+  --bg-color-tertiary: #edf6f9;
+  --color-primary: #edf6f9;
+}
 
 .bg-primary-color {
-    background-color: #03071e;
+  background-color: var(--bg-color-primary);
+}
+
+.bg-secondary-color {
+  background-color: var(--bg-color-secondary);
 }
