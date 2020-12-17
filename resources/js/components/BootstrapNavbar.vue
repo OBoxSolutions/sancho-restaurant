@@ -25,7 +25,7 @@
           <!-- Authentication Links -->
           <slot></slot>
         </bootstrap-navbar-links>
-        <vue-theme-switcher></vue-theme-switcher>
+        <!-- <vue-theme-switcher></vue-theme-switcher> -->
       </div>
     </div>
   </nav>
