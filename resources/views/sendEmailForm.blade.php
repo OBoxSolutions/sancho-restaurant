@@ -10,7 +10,10 @@
             @csrf
             <div class="form-group">
                 <label for="emailBody">Cuerpo del correo</label>
-                <textarea class="form-control" name="emailBody" id="emailBody" rows="3"></textarea>
+                <textarea class="form-control @error('emailBody') is-invalid @enderror" name="emailBody" id="emailBody" rows="3"></textarea>
+                @error('emailBody')
+                <div class="alert alert-danger">{{ $message }}</div>
+                @enderror
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
