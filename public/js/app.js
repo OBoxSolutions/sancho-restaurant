@@ -2049,6 +2049,10 @@ __webpack_require__.r(__webpack_exports__);
         route: "/email/send",
         name: "emailSend",
         "public": "Enviar correos"
+      }, {
+        route: "/email/create",
+        name: "email",
+        "public": "Subscribirse"
       }]
     };
   }
