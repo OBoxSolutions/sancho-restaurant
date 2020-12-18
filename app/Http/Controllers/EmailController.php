@@ -26,10 +26,10 @@ class EmailController extends Controller
 
 //        Mail::to('jcassola96@gmail.com')->send(new SentEmail($data));
 
-        $mailTo = Email::all();
-        foreach ($mailTo as $mt){
-            Mail::to($mt->email)->send(new SentEmail($data));
-        }
+//        $mailTo = Email::all();
+//        foreach ($mailTo as $mt){
+//            Mail::to($mt->email)->queue(new SentEmail($data));
+//        }
 
         return new SentEmail($data);
     }
