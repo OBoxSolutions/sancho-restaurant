@@ -2072,13 +2072,9 @@ __webpack_require__.r(__webpack_exports__);
         name: "menu",
         "public": "Menú"
       }, {
-        route: "/reserve",
-        name: "events",
-        "public": "Reservar"
-      }, {
-        route: "/contact",
-        name: "contact",
-        "public": "Contactar"
+        route: "/visit",
+        name: "visit",
+        "public": "Visitas"
       }, {
         route: "/email/send",
         name: "emailSend",
@@ -39464,7 +39460,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "col-sm-12 col-md-6" }, [
-    _c("h2", [_vm._v("\n    " + _vm._s(_vm.title) + "\n  ")]),
+    _c("h5", [_vm._v("\n    " + _vm._s(_vm.title) + "\n  ")]),
     _vm._v(" "),
     _c("p", [_vm._t("default")], 2)
   ])

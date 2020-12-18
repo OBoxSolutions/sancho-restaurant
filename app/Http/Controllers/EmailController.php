@@ -26,11 +26,15 @@ class EmailController extends Controller
             'emailBody' => 'required',
         ]);
 
-//        Mail::to('jcassola96@gmail.com')->send(new OfferEmail($data));
-
         $mailTo = Email::all();
+
+        //For testing Gmail in prod
+//        for ($i=0;$i < 10; $i++) {
+//            SendEmail::dispatch('jcassola96@gmail.com', $data)->delay(Carbon::now()->addSecond(1));
+//        }
+
+
         foreach ($mailTo as $address){
-//            Mail::to($mt->email)->queue(new OfferEmail($data));
             SendEmail::dispatch($address, $data)->delay(Carbon::now()->addSecond(1));
         }
 
