@@ -31,9 +31,9 @@ export default {
           public: "Menú"
         },
         {
-          route: "/reserve",
-          name: "reserve",
-          public: "Reservar"
+          route: "/visit",
+          name: "visit",
+          public: "Visitas"
         },
         {
           route: "/email/send",
