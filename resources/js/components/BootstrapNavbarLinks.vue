@@ -32,7 +32,7 @@ export default {
         },
         {
           route: "/reserve",
-          name: "events",
+          name: "reserve",
           public: "Reservar"
         },
         {
