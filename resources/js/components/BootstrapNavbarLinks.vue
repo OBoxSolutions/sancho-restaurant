@@ -36,11 +36,6 @@ export default {
           public: "Reservar"
         },
         {
-          route: "/contact",
-          name: "contact",
-          public: "Contactar"
-        },
-        {
           route: "/email/send",
           name: "emailSend",
           public: "Enviar correos"
