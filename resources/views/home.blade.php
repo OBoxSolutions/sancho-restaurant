@@ -75,9 +75,12 @@
                     @csrf
                     <div class="form-group">
                         <label for="email">Dirección de correo</label>
-                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Entre su dirección de correo">
+                        <input type="email" class="form-control @error('title') is-invalid @enderror" id="email" name="email" aria-describedby="emailHelp" placeholder="Entre su dirección de correo">
+                        @error('email')
+                        <div class="alert alert-danger">{{ $message }}</div>
+                        @enderror
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <app-golden-btn size="large">Subscribirme</app-golden-btn>
                 </form>
             </div>
         </div>
@@ -100,7 +103,7 @@
             <div class="col-md-2">
                 <app-center-aligner>
                     <a href="#">
-                        <button class="btn">Menú</button>
+                        <app-golden-btn size="large">Menú</app-golden-btn>
                     </a>
                 </app-center-aligner>
             </div>
