@@ -1,8 +1,8 @@
 <template>
   <div class="col-sm-12 col-md-6">
-    <h2>
+    <h5>
       {{ title }}
-    </h2>
+    </h5>
     <p>
       <slot></slot>
     </p>
