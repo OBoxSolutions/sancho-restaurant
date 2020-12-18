@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Email;
-use App\Mail\SentEmail;
+use App\Mail\OfferEmail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -24,13 +24,13 @@ class EmailController extends Controller
             'emailBody' => 'required',
         ]);
 
-//        Mail::to('jcassola96@gmail.com')->send(new SentEmail($data));
+//        Mail::to('jcassola96@gmail.com')->send(new OfferEmail($data));
 
 //        $mailTo = Email::all();
 //        foreach ($mailTo as $mt){
-//            Mail::to($mt->email)->queue(new SentEmail($data));
+//            Mail::to($mt->email)->queue(new OfferEmail($data));
 //        }
 
-        return new SentEmail($data);
+        return new OfferEmail($data);
     }
 }

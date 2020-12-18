@@ -11,7 +11,7 @@
 |
 */
 
-use App\Mail\SentEmail;
+use App\Mail\OfferEmail;
 use Illuminate\Support\Facades\Mail;
 
 Route::get('/', 'HomeController@index')->name('home');
