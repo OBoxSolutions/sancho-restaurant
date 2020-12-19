@@ -108,6 +108,25 @@
                 </app-center-aligner>
             </div>
         </div>
+        <h2 class="mt-5 pt-5">Nuestros favoritos</h2>
+        <hr>
+        <div class="row">
+            <vue-menu-item title="Jamón Ibérico de Bellota 5 Jotas">
+                Jamón cocinado a la ibérica, un plato delicioso y aún mas acompañada por uno de nuestros vinos
+            </vue-menu-item>
+            <vue-menu-item title="Queso Manchego">
+                Jamón cocinado a la ibérica, un plato delicioso y aún mas acompañada por uno de nuestros vinos
+            </vue-menu-item>
+            <vue-menu-item title="Boquerones a la Vinagreta">
+                Jamón cocinado a la ibérica, un plato delicioso y aún mas acompañada por uno de nuestros vinos
+            </vue-menu-item>
+            <vue-menu-item title="Pulpo a la Vinagreta">
+                Jamón cocinado a la ibérica, un plato delicioso y aún mas acompañada por uno de nuestros vinos
+            </vue-menu-item>
+            <vue-menu-item title="Jamón Serrano">
+                Jamón cocinado a la ibérica, un plato delicioso y aún mas acompañada por uno de nuestros vinos
+            </vue-menu-item>
+        </div>
     </vue-section>
 </section>
 <section>
