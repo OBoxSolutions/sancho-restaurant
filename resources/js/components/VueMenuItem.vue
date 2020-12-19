@@ -1,5 +1,5 @@
 <template>
-  <div class="col-sm-12 col-md-6">
+  <div>
     <h5>
       {{ title }}
     </h5>
@@ -20,5 +20,3 @@ export default {
   }
 };
 </script>
-
-<style></style>
