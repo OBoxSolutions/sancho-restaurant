@@ -2,8 +2,11 @@
   <ul class="navbar-nav ml-auto">
     <li class="nav-item" v-for="route in routes" :key="route.name">
       <a
-        class="nav-link"
-        :class="{ active: route.name === currentRoute }"
+        class="nav-link font-menu"
+        :class="{
+          active: active(route.name),
+          'active-border-bottom': active(route.name)
+        }"
         :href="route.route"
         >{{ route.public }}</a
       >
@@ -47,6 +50,11 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    active(routeName) {
+      return routeName === this.currentRoute;
+    }
   }
 };
 </script>
@@ -54,5 +62,11 @@ export default {
 <style scoped>
 .font-menu {
   font-size: 1.2em;
+}
+.active-border-bottom {
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 3px !important;
+  border-color: white !important;
 }
 </style>
