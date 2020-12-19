@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div>
-                    <h3>
+                    <h3 class="pb-3">
                         Location
                     </h3>
                     <p>
@@ -19,7 +19,7 @@
                     </p>
                 </div>
                 <div class="pt-5 mt-5">
-                    <h3>
+                    <h3 class="pb-3">
                         Horario
 
                     </h3>
@@ -32,7 +32,7 @@
                     </p>
                 </div>
                 <div class="pt-5 mt-5">
-                    <h3>
+                    <h3 class="pb-3">
                         Contactos
                     </h3>
                     <p>
