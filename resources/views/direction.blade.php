@@ -8,7 +8,7 @@
     <vue-section class="bg-white">
         <div class="row">
             <div class="col-md-6">
-                <div class="pt-5 mt-5">
+                <div>
                     <h3>
                         Location
                     </h3>
