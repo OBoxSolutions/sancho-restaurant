@@ -31,9 +31,9 @@ export default {
           public: "Menú"
         },
         {
-          route: "/visit",
-          name: "visit",
-          public: "Visitas"
+          route: "/direction",
+          name: "direction",
+          public: "Dirección"
         },
         {
           route: "/email/send",

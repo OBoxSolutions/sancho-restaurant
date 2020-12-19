@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Mail;
 Route::get('/', 'HomeController@index')->name('home');
 Route::view('contact', 'contact')->name('contact');
 Route::view('menu', 'menu')->name('menu');
-Route::view('visit', 'visit')->name('visit');
+Route::view('direction', 'direction')->name('visit');
 
 Route::view('email/create', 'subscribe')->name('email');
 Route::post('email', 'EmailController@store')->name('email.store');
