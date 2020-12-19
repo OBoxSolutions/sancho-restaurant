@@ -1,6 +1,6 @@
 <template>
   <button
-    class="btn golden-btn-normal"
+    class="btn golden-btn-normal btn-font"
     :class="{ 'golden-btn-large': size === 'large' }"
   >
     <slot></slot>
