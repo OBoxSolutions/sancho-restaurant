@@ -66,6 +66,6 @@ export default {
 .active-border-bottom {
   border-style: solid;
   border-width: 0;
-  border-bottom-width: 3px !important;
+  border-bottom-width: 3px;
 }
 </style>
