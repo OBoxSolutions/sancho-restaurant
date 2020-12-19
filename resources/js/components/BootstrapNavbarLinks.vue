@@ -67,6 +67,5 @@ export default {
   border-style: solid;
   border-width: 0;
   border-bottom-width: 3px !important;
-  border-color: white !important;
 }
 </style>
