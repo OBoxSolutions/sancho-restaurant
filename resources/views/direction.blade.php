@@ -9,9 +9,9 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="pt-5 mt-5">
-                    <h5>
+                    <h3>
                         Location
-                    </h5>
+                    </h3>
                     <p>
 
                         123 Willow Street
@@ -19,10 +19,10 @@
                     </p>
                 </div>
                 <div class="pt-5 mt-5">
-                    <h5>
+                    <h3>
                         Horario
 
-                    </h5>
+                    </h3>
                     <p>
                         Martes-viernes 12:00–22:30 | sábado 12:00–23:00 | domingo 14:00 22:00
 
@@ -32,9 +32,9 @@
                     </p>
                 </div>
                 <div class="pt-5 mt-5">
-                    <h5>
+                    <h3>
                         Contactos
-                    </h5>
+                    </h3>
                     <p>
                         Teléfono 05 3087308
                     </p>
