@@ -102,7 +102,7 @@
             <div class="col-md-2"></div>
             <div class="col-md-2">
                 <app-center-aligner>
-                    <a href="#">
+                    <a href="{{ route('menu') }}">
                         <app-golden-btn size="large">Menú</app-golden-btn>
                     </a>
                 </app-center-aligner>
