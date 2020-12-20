@@ -10927,3 +10927,11 @@ a.text-dark:focus {
   background-color: var(--bg-color-tertiary);
 }
 
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn-font {
+  font-family: "Nunito", sans-serif, serif;
+}
+
