@@ -6,10 +6,10 @@
                                         inspirados en los fantásticos sabores de España.
                                         ¡Venga y experimente la cocina española a nuestra manera!"/>
 <meta property="og:keywords" content="restaurant, food, drinks, good time, family"/>
-<meta property="og:author" content="OBSolutions"/>
+<meta property="og:author" content="Sancho Restaurant"/>
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://sancho-restaurant.herokuapp.com/"/>
-<meta property="og:image" content="{{ asset('logo.webp') }}"/>
+<meta property="og:image" content="{{ asset('logo.png') }}"/>
 <meta property="og:image:size" content="300" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:copyright" content="Sancho Copyright 2020" />
