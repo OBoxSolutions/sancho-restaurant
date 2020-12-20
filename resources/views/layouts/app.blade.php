@@ -25,7 +25,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <!-- Site Icon -->
-    <link rel="icon" href="{{ asset('assets/logo.webp') }}" type="image/icon type">
+    <link rel="icon" href="{{ asset('assets/logo.png') }}" type="image/icon type">
 </head>
 
 <body>
