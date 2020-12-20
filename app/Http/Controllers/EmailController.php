@@ -28,15 +28,15 @@ class EmailController extends Controller
 
         $mailTo = Email::all();
 
-//        For testing Gmail in prod
-        for ($i=0;$i < 10; $i++) {
-            SendEmail::dispatch('jcassola96@gmail.com', $data)->delay(Carbon::now()->addSecond(1));
-        }
-
-
-//        foreach ($mailTo as $address){
-//            SendEmail::dispatch($address, $data)->delay(Carbon::now()->addSecond(1));
+        //For testing Gmail in prod
+//        for ($i=0;$i < 10; $i++) {
+//            SendEmail::dispatch('jcassola96@gmail.com', $data)->delay(Carbon::now()->addSecond(1));
 //        }
+
+
+        foreach ($mailTo as $address){
+            SendEmail::dispatch($address, $data)->delay(Carbon::now()->addSecond(1));
+        }
 
         return new OfferEmail($data);
     }
