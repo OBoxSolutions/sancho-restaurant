@@ -6,7 +6,7 @@
 <meta property="og:author" content="Sancho Restaurant"/>
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://sancho-restaurant.herokuapp.com/"/>
-<meta property="og:image" content="{{ asset('picture.png') }}"/>
+<meta property="og:image" content="{{ asset('assets/picture.png') }}"/>
 <meta property="og:image:size" content="300" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:copyright" content="Sancho Copyright 2020" />
