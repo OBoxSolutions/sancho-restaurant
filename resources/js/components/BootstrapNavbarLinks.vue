@@ -82,6 +82,10 @@ export default {
   }
 }
 
+a {
+  text-transform: uppercase;
+}
+
 .active-border-bottom {
   border-style: solid;
   border-width: 0;
