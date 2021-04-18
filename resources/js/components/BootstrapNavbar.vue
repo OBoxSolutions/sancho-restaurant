@@ -15,7 +15,10 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div
+      class="collapse navbar-collapse navbar-styles"
+      id="navbarSupportedContent"
+    >
       <!-- Right Side Of Navbar -->
       <bootstrap-navbar-links
         :user-name="userName"
@@ -35,3 +38,11 @@ export default {
   name: "BootstrapNavbar"
 };
 </script>
+
+<style scoped>
+@media (min-width: 65em) {
+  .navbar-styles {
+    margin-right: 1em;
+  }
+}
+</style>
