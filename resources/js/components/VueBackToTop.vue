@@ -55,6 +55,7 @@ export default {
   width: 80px;
   height: 80px;
   font-size: 3em; /* Increase font size */
+  transition: all 0.5s;
 }
 
 #floating-button:hover {
