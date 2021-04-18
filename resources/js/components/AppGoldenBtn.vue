@@ -1,7 +1,7 @@
 <template>
   <button
-    class="btn golden-btn-normal btn-font"
-    :class="{ 'golden-btn-large': size === 'large' }"
+    class="btn golden-btn btn-font"
+    :class="{ 'golden-btn--large': size === 'large' }"
   >
     <slot></slot>
   </button>
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style scoped>
-.golden-btn-normal {
+.golden-btn {
   background-color: var(--bg-color-tertiary);
   color: var(--bg-color-primary);
   text-align: center;
@@ -29,11 +29,11 @@ export default {
   cursor: pointer;
 }
 
-.golden-btn-normal:hover {
+.golden-btn:hover {
   background-color: var(--bg-color-quaternary);
 }
 
-.golden-btn-large {
+.golden-btn--large {
   background-color: var(--bg-color-tertiary);
   border: none;
   color: var(--bg-color-primary);
@@ -48,7 +48,7 @@ export default {
   font-weight: bold;
 }
 
-.golden-btn-large:hover {
+.golden-btn--large:hover {
   background-color: var(--bg-color-secondary);
   color: white;
 }
