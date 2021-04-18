@@ -61,7 +61,7 @@ export default {
 
 <style scoped>
 .font-menu {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 35em) {
