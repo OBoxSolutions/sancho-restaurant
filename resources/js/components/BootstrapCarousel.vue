@@ -11,17 +11,45 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img
-          src="assets/chicken.jpeg"
+          src="assets/chicken-small.jpg"
+          srcset="
+            assets/chicken-medium-small.jpg  500w,
+            assets/chicken-medium.jpg       1000w,
+            assets/chicken-medium-big.jpg   1500w,
+            assets/chicken.jpeg             2000w
+          "
           alt="Los Angeles"
           width="1100"
           height="500"
         />
       </div>
       <div class="carousel-item">
-        <img src="assets/hamburger.jpeg" alt="Chicago" width="1100" height="500" />
+        <img
+          src="assets/hamburger.jpg"
+          srcset="
+            assets/hamburger-medium-small.jpg  500w,
+            assets/hamburger-medium.jpg       1000w,
+            assets/hamburger-medium-big.jpg   1500w,
+            assets/hamburger.jpeg             2000w
+          "
+          alt="Chicago"
+          width="1100"
+          height="500"
+        />
       </div>
       <div class="carousel-item">
-        <img src="assets/pizza.jpeg" alt="New York" width="1100" height="500" />
+        <img
+          src="assets/pizza.jpg"
+          srcset="
+            assets/pizza-medium-small.jpg  500w,
+            assets/pizza-medium.jpg       1000w,
+            assets/pizza-medium-big.jpg   1500w,
+            assets/pizza.jpeg             2000w
+          "
+          alt="New York"
+          width="1100"
+          height="500"
+        />
       </div>
     </div>
 
