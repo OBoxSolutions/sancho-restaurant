@@ -42,3 +42,11 @@ body {
 .btn-font {
   font-family: "Nunito", sans-serif, serif;
 }
+
+@font-face {
+  font-family: "padalomaregular";
+  src: url("../assets//fonts/padaloma/padaloma-webfont.woff2") format("woff2"),
+    url("../assets//fonts/padaloma/padaloma-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
