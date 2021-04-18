@@ -61,8 +61,27 @@ export default {
 
 <style scoped>
 .font-menu {
-  font-size: 1.2em;
+  font-size: 0.6rem;
 }
+
+@media (min-width: 35em) {
+  .font-menu {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 50em) {
+  .font-menu {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 65em) {
+  .font-menu {
+    font-size: 1rem;
+  }
+}
+
 .active-border-bottom {
   border-style: solid;
   border-width: 0;
