@@ -31,12 +31,12 @@ export default {
         {
           route: "/menu",
           name: "menu",
-          public: "Menú"
+          public: "Menu"
         },
         {
           route: "/direction",
           name: "direction",
-          public: "Dirección"
+          public: "Direccion"
         },
         {
           route: "/email/send",
@@ -61,29 +61,31 @@ export default {
 
 <style scoped>
 .font-menu {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 @media (min-width: 35em) {
   .font-menu {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
 }
 
 @media (min-width: 50em) {
   .font-menu {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
 
 @media (min-width: 65em) {
   .font-menu {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
 a {
   text-transform: uppercase;
+  font-family: "padalomaregular";
+  margin-right: 1em;
 }
 
 .active-border-bottom {
