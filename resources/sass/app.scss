@@ -1,52 +1,12 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Nunito");
 
+@import "general_styles";
+
 // Variables
 @import "variables";
 
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
-:root,
-[data-theme="default"] {
-  --bg-color-primary: #03071e;
-  --bg-color-secondary: #9d0208;
-  --bg-color-tertiary: #f9a826;
-  --bg-color-quaternary: #f48c06;
-  --color-primary: white;
-}
-
-[data-theme="light"] {
-  --bg-color-primary: #006d77;
-  --bg-color-secondary: #e29578;
-  --bg-color-tertiary: #edf6f9;
-  --color-primary: #edf6f9;
-}
-
-.bg-primary-color {
-  background-color: var(--bg-color-primary);
-}
-
-.bg-secondary-color {
-  background-color: var(--bg-color-secondary);
-}
-
-.bg-secondary-color {
-  background-color: var(--bg-color-tertiary);
-}
-
-body {
-  font-family: "Times New Roman", Times, serif;
-}
-
-.btn-font {
-  font-family: "Nunito", sans-serif, serif;
-}
-
-@font-face {
-  font-family: "padalomaregular";
-  src: url("../assets//fonts/padaloma/padaloma-webfont.woff2") format("woff2"),
-    url("../assets//fonts/padaloma/padaloma-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+@import "manual_writting";
