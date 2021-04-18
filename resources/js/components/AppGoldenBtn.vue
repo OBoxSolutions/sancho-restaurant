@@ -34,15 +34,9 @@ export default {
 }
 
 .golden-btn--large {
-  background-color: var(--bg-color-tertiary);
   border: none;
-  color: var(--bg-color-primary);
   padding: 15px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   margin: 4px 2px;
-  cursor: pointer;
   border-radius: 16px;
   font-size: medium;
   font-weight: bold;
