@@ -30,9 +30,7 @@
             <social-links></social-links>
           </div>
         </div>
-        <div class="text-center padding-top-30 padding-bottom-30">
-          Copyright © 2020 Sancho Restaurant
-        </div>
+        <div class="text-center py-3">Copyright © 2020 Sancho Restaurant</div>
       </div>
     </div>
   </footer>
