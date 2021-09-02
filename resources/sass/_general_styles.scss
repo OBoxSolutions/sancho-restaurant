@@ -35,21 +35,13 @@ body {
 }
 
 h1 {
-  font-family: "almonade";
+  font-family: "Dancing Script", cursive;
 }
 
 @font-face {
   font-family: "padalomaregular";
   src: url("../assets/fonts/padaloma/padaloma-webfont.woff2") format("woff2"),
     url("../assets/fonts/padaloma/padaloma-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "almonade";
-  src: url("../assets/fonts/almonade/almonade-webfont.woff2") format("woff2"),
-    url("../assets/fonts/almonade/almonade-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
