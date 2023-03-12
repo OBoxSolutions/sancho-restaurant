@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
 COPY . /var/www/html
 
 # Set write permissions for storage and bootstrap/cache directories
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+RUN chown -R www-data:www-data /var/www /var/www/html/storage /var/www/html/bootstrap/cache
 
 # Change working directory to Laravel app root
 WORKDIR /var/www/html
