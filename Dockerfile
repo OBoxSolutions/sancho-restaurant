@@ -1,26 +1,31 @@
-FROM php:7.4-fpm
+FROM php:7.4-apache
 
+# Install required packages
 RUN apt-get update && apt-get install -y \
-  git \
-  wget \
-  libpq-dev \
-  libpng-dev \
-  libonig-dev \
-  libxml2-dev \
-  && apt-get clean && rm -rf /var/lib/apt/lists/* \
-  && docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql \
-  && docker-php-ext-install pdo pdo_pgsql pgsql mbstring exif pcntl bcmath gd \
-  && wget https://raw.githubusercontent.com/composer/getcomposer.org/master/web/installer -O - -q | php -- --install-dir=/usr/local/bin --filename=composer
+    libpq-dev \
+    libzip-dev \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
+# Install PHP extensions
+RUN docker-php-ext-install pdo_pgsql zip
 
-COPY . /app
+# Enable Apache modules
+RUN a2enmod rewrite
 
-ENV COMPOSER_ALLOW_SUPERUSER=1
+# Copy Laravel app files
+COPY . /var/www/html
 
-RUN composer install \
-  && echo "#!/bin/sh\n" \
-  "php artisan serve --host 0.0.0.0 --port 8000" > /app/start.sh \
-  && chmod +x /app/start.sh
+# Set write permissions for storage and bootstrap/cache directories
+RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
-CMD ["/app/start.sh"]
+# Change working directory to Laravel app root
+WORKDIR /var/www/html
+
+# Install Composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+# Install project dependencies
+RUN composer install --no-dev --optimize-autoloader
+
+# Expose port 80 for Apache
+EXPOSE 80
