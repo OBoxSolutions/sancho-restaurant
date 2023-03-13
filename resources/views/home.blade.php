@@ -12,7 +12,7 @@
   <vue-section class="bg-primary-color text-light">
     <div class="row">
       <div class="col-md-6">
-        <img src="{{ asset('assets/phone.svg') }}" class="img-fluid" alt="A phone image" srcset="">
+        <img decoding="async" loading="lazy" src="{{ asset('assets/phone.svg') }}" class="img-fluid" alt="A phone image" srcset="">
       </div>
       <div class="col-md-6 align-text-bottom">
         <app-center-aligner>
@@ -49,7 +49,7 @@
   <vue-section class="bg-primary-color text-light">
     <div class="row">
       <div class="col-md-3">
-        <img src="{{ asset('assets/clock.svg') }}" class="img-fluid" alt="A phone image" srcset="">
+        <img decoding="async" loading="lazy" src="{{ asset('assets/clock.svg') }}" class="img-fluid" alt="A phone image" srcset="">
       </div>
       <div class="offset-md-3 col-md-6">
         <app-center-aligner>
@@ -91,7 +91,7 @@
   <vue-section class="bg-primary-color text-light">
     <div class="row">
       <div class="col-md-3">
-        <img src="{{ asset('assets/menu.svg') }}" class="img-fluid" alt="Imagen de noticias" srcset="">
+        <img decoding="async" loading="lazy" src="{{ asset('assets/menu.svg') }}" class="img-fluid" alt="Imagen de noticias" srcset="">
       </div>
       <div class="col-md-5">
         <app-center-aligner>
