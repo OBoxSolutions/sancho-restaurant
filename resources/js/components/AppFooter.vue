@@ -5,6 +5,8 @@
         <div class="row">
           <div class="col-12 col-md-4 text-center">
             <img
+              decoding="async"
+              loading="lazy"
               src="/assets/logo.webp"
               alt="Logo de ZaruArquitectura"
               class="site-logo text-center"
