@@ -17,8 +17,9 @@ RUN chown -R www-data:www-data /var/www /var/www/html /var/www/html/storage /var
 # Change working directory to Laravel app root
 WORKDIR /var/www/html
 
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
-    && composer install --no-dev --optimize-autoloader
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+RUN composer install --no-dev --optimize-autoloader
 
 # Expose port 80 for Apache
 EXPOSE 80
