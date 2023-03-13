@@ -20,5 +20,7 @@ WORKDIR /var/www/html
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
     && composer install --no-dev --optimize-autoloader
 
+WORKDIR /var/www/html/public
+
 # Expose port 80 for Apache
 EXPOSE 80
